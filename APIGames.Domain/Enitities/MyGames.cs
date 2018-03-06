@@ -2,7 +2,7 @@ using System;
 
 namespace APIGames.Domain.Entities
 {
-    public class Gamer
+    public class MyGames
     {
         public Guid Id { get; private set; }
         public string FirstName { get; private set; }
