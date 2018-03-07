@@ -1,4 +1,5 @@
 using System;
+using APIGames.Domain.Enums;
 using APIGames.Domain.ValueObjects;
 
 namespace APIGames.Domain.Entities
@@ -10,6 +11,6 @@ namespace APIGames.Domain.Entities
         public string LastName { get; private set; }
         public Email Email { get; private set; }
         public string Password { get; private set; }
-        public int Status { get; private set; }
+        public ESituation Status { get; private set; }
     }
 }
